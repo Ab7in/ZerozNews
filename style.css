@@ -1,0 +1,20 @@
+.btn {
+    font-size: 5px;
+font-weight: 700;
+padding: 0.5em 1em;
+color:gold;
+background-color:var(--clr-rgba);
+border: 10px solid var(--clr-accent);
+border-radius: 10px;
+transition-property: transform;
+transition-duration: 0.4s;
+transition-timing-function: ease;
+transition-delay: 0s;
+transition: transform 0.3s, background-color 0.4s, color 0.3s;
+}
+
+
+.btn:hover {
+    transform: translateY(-10px);
+    background-color: deeppink;
+}
